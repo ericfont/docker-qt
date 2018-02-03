@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM arm32v7/debian:jessie
 MAINTAINER Faraz Fallahi <fffaraz@gmail.com>
 RUN \
 apt -y update && \
